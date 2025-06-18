@@ -34,7 +34,7 @@
 ### Arduino IDE库依赖
 在Arduino IDE库管理器中安装以下库：
 
-1. **[Seeed Arduino rpcWiFi](https://wiki.seeedstudio.com/Wio-Terminal-Buttons/)** - Wio Terminal WiFi支持
+1. **[Seeed Arduino rpcWiFi](https://wiki.seeedstudio.com/Wio-Terminal-Wi-Fi/)/)** - Wio Terminal WiFi支持
 2. **Seeed Arduino rpcUnified** - 统一外设接口  
 3. **TFT_eSPI** - TFT屏幕驱动
 4. **RTC library for SAMD51** - 实时时钟支持
