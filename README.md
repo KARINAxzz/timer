@@ -34,12 +34,12 @@
 ### Arduino IDE库依赖
 在Arduino IDE库管理器中安装以下库：
 
-1. **[Seeed Arduino rpcWiFi](https://wiki.seeedstudio.com/Wio-Terminal-Wi-Fi/)/)** - Wio Terminal WiFi支持
-2. **Seeed Arduino rpcUnified** - 统一外设接口  
-3. **TFT_eSPI** - TFT屏幕驱动
-4. **RTC library for SAMD51** - 实时时钟支持
-5. **millisDelay** - 定时器功能
-6. **ChainableLED** - Grove RGB LED控制
+1. **[Seeed Arduino rpcWiFi](https://wiki.seeedstudio.com/Wio-Terminal-Wi-Fi/)** - Wio Terminal WiFi支持
+2. **[Seeed Arduino rpcUnified](https://github.com/Seeed-Studio/Seeed_Arduino_rpcUnified)** - 统一外设接口  
+3. **[TFT_eSPI](https://github.com/Seeed-Studio/Seeed_Arduino_LCD)** - TFT屏幕驱动
+4. **[RTC library for SAMD51](https://wiki.seeedstudio.com/Wio-Terminal-RTC/)** - 实时时钟支持
+5. **[millisDelay](https://github.com/ansonhex/millisDelay)** - 定时器功能
+6. **[ChainableLED](https://wiki.seeedstudio.com/Grove-Chainable_RGB_LED/#play-with-arduino)** - Grove RGB LED控制
 
 ### 开发环境配置
 - Arduino IDE 1.8.x 或更高版本
