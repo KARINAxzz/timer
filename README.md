@@ -231,6 +231,12 @@ int tempo = 300;  // 节拍时长(ms)
 | a    | 440      |
 | b    | 493      |
 
+
+<video width="600" controls>
+  <source src="video.mp4" type="./demo.mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## 📊 内存使用优化
 
 ### 编译信息
