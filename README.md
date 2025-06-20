@@ -2,7 +2,7 @@
 
 一个基于Seeed Wio Terminal开发的功能完整的智能闹钟系统，具备时间显示、闹钟设置、音响提醒和LED视觉提醒功能。
 
-![](images/operated_state.jpg)
+<img src="images/operated_state.jpg" alt="Operated State" style="width: 300px; display: block; margin: 0 auto;">
 
 ## 🌟 项目特性
 
