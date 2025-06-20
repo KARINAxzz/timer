@@ -108,7 +108,7 @@
 
 ### 系统架构
 
-<img src="images/svgviewer-output.svg" alt="demo animation" style="width: 300px; display: block; margin: 0 auto;">
+<img src="images/svgviewer-output.svg" alt="demo animation" style="width: 800px; display: block; margin: 0 auto;">
 
 ### 核心模块实现
 
