@@ -102,7 +102,7 @@
 
 - **红色闪烁**：闹钟响起
 
-  <img src="images/demo.gif" alt="demo animation" style="width: 300px; display: block; margin: 0 auto;">
+  <img src="./images/demo.gif" alt="demo animation" style="width: 300px; display: block; margin: 0 auto;">
 
 ## 🔧 技术实现原理
 
