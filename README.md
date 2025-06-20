@@ -137,7 +137,14 @@
   </defs>
 
   <!-- 用户界面层 <-> 控制逻辑层 -->
-  <line x1="260" y1="90" x2="290" y2="90" stroke="
+  <line x1="260" y1="90" x2="290" y2="90" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="290" y1="115" x2="260" y2="115" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- 控制逻辑层 <-> 硬件驱动层 -->
+  <line x1="530" y1="90" x2="560" y2="90" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="560" y1="115" x2="530" y2="115" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
+</svg>
+
 
 
 ### 核心模块实现
