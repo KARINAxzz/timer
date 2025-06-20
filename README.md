@@ -2,8 +2,6 @@
 
 一个基于Seeed Wio Terminal开发的功能完整的智能闹钟系统，具备时间显示、闹钟设置、音响提醒和LED视觉提醒功能。
 
-<img src="images/operated_state.jpg" alt="Operated State" style="width: 300px; display: block; margin: 0 auto;">
-
 ## 🌟 项目特性
 
 - **实时时钟显示**：显示当前时间、日期和星期
@@ -95,8 +93,16 @@
 
 ### LED状态指示
 - **绿色微光**：正常模式运行中
+
+  <img src="images/unoperated_state.jpg" alt="Operated State" style="width: 300px; display: block; margin: 0 auto;">
+
 - **蓝色微光**：设置模式中
+
+  <img src="images/operated_state.jpg" alt="Operated State" style="width: 300px; display: block; margin: 0 auto;">
+
 - **红色闪烁**：闹钟响起
+
+  <img src="images/demo.gif" alt="Operated State" style="width: 300px; display: block; margin: 0 auto;">
 
 ## 🔧 技术实现原理
 
