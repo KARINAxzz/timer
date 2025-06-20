@@ -107,15 +107,38 @@
 ## 🔧 技术实现原理
 
 ### 系统架构
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   用户界面层     │    │    控制逻辑层    │    │    硬件驱动层    │
-│                │    │                │    │                │
-│ • TFT屏幕显示   │◄──►│ • 时间管理      │◄──►│ • RTC模块       │
-│ • 按键输入处理   │    │ • 闹钟逻辑      │    │ • 蜂鸣器        │
-│ • 状态模式管理   │    │ • 状态机控制    │    │ • RGB LED       │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
+<svg width="820" height="280" xmlns="http://www.w3.org/2000/svg">
+  <!-- 用户界面层 -->
+  <rect x="20" y="20" width="240" height="200" rx="10" ry="10" fill="#E0F7FA" stroke="#00796B" stroke-width="2"/>
+  <text x="140" y="45" font-size="16" text-anchor="middle" fill="#004D40" font-weight="bold">用户界面层</text>
+  <text x="40" y="80" font-size="14">• TFT 屏幕显示</text>
+  <text x="40" y="105" font-size="14">• 按键输入处理</text>
+  <text x="40" y="130" font-size="14">• 状态模式管理</text>
+
+  <!-- 控制逻辑层 -->
+  <rect x="290" y="20" width="240" height="200" rx="10" ry="10" fill="#FFF8E1" stroke="#F9A825" stroke-width="2"/>
+  <text x="410" y="45" font-size="16" text-anchor="middle" fill="#F57F17" font-weight="bold">控制逻辑层</text>
+  <text x="310" y="80" font-size="14">• 时间管理</text>
+  <text x="310" y="105" font-size="14">• 闹钟逻辑</text>
+  <text x="310" y="130" font-size="14">• 状态机控制</text>
+
+  <!-- 硬件驱动层 -->
+  <rect x="560" y="20" width="240" height="200" rx="10" ry="10" fill="#F3E5F5" stroke="#8E24AA" stroke-width="2"/>
+  <text x="680" y="45" font-size="16" text-anchor="middle" fill="#6A1B9A" font-weight="bold">硬件驱动层</text>
+  <text x="580" y="80" font-size="14">• RTC 模块</text>
+  <text x="580" y="105" font-size="14">• 蜂鸣器</text>
+  <text x="580" y="130" font-size="14">• RGB LED</text>
+
+  <!-- 箭头连接 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- 用户界面层 <-> 控制逻辑层 -->
+  <line x1="260" y1="90" x2="290" y2="90" stroke="
+
 
 ### 核心模块实现
 
